@@ -7,21 +7,30 @@
 <style>
 body{margin:0;font-family:"Microsoft YaHei",sans-serif;background:#fff8d8;color:#355b32;display:flex;min-height:100vh;align-items:center;justify-content:center}
 .card{width:min(92vw,520px);background:#fffdf3;border:5px solid #78c850;border-radius:32px;padding:30px;box-sizing:border-box;text-align:center;box-shadow:0 12px 35px rgba(80,120,50,.18)}
-.cicada{font-size:88px;line-height:1}
+.cicada{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+    overflow:hidden;
+    border-radius:50%;
+    background:#eaf8e2;
+}
 h1{font-size:34px;margin:8px 0 4px}
 p{font-size:18px;color:#65735a}
 audio{width:100%;margin:22px 0}
 .tip{background:#eaf8e2;border-radius:18px;padding:14px;font-size:16px}
 .cicada img {
-    width: 150px;
-    height: auto;
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 </style>
 </head>
 <body>
 <div class="card">
 <div class="cicada">
-    <img src="./cicada.png" alt="知了">
+    <img src="./cicada-avatar.png" alt="知了" width="150" height="150" decoding="async">
 </div>
   <h1>听！知了在唱歌</h1>
   <p>校园里的夏日声音 · 约 12 秒</p>
